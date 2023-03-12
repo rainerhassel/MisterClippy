@@ -534,7 +534,7 @@
   (symbol (lib_id "Device:R") (at 137.16 96.52 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16e3122c-b23f-4946-accd-214fb39091a8)
-    (property "Reference" "R7" (at 139.7 95.2499 0)
+    (property "Reference" "R5" (at 139.7 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22k" (at 139.7 97.7899 0)
@@ -551,10 +551,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -563,7 +563,7 @@
   (symbol (lib_id "power:GND") (at 132.08 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bc09bf9-f17a-4627-8919-6401426d20b8)
-    (property "Reference" "#PWR0120" (at 132.08 81.28 0)
+    (property "Reference" "#PWR015" (at 132.08 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 80.01 0)
@@ -579,10 +579,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -591,7 +591,7 @@
   (symbol (lib_id "power:GND") (at 181.61 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23d7915d-a158-4401-8a86-752524d64fe0)
-    (property "Reference" "#PWR0118" (at 181.61 109.22 0)
+    (property "Reference" "#PWR018" (at 181.61 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 107.95 0)
@@ -607,10 +607,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -650,7 +650,7 @@
   (symbol (lib_id "power:+5V") (at 160.02 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3efa7dca-a0a7-4209-9b31-dd2411ae6270)
-    (property "Reference" "#PWR0117" (at 160.02 72.39 0)
+    (property "Reference" "#PWR016" (at 160.02 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 160.02 63.5 0)
@@ -666,10 +666,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -678,7 +678,7 @@
   (symbol (lib_id "Device:R") (at 160.02 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58f2f2d2-5182-42a8-b41a-4b9d13b1e049)
-    (property "Reference" "R10" (at 162.56 76.1999 0)
+    (property "Reference" "R8" (at 162.56 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 162.56 78.7399 0)
@@ -695,10 +695,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "R15") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -707,7 +707,7 @@
   (symbol (lib_id "Device:R") (at 152.4 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60039d9e-9760-4760-98bc-16d5821d677e)
-    (property "Reference" "R9" (at 154.94 95.2499 0)
+    (property "Reference" "R7" (at 154.94 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 154.94 97.7899 0)
@@ -724,10 +724,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "R9") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "R14") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -736,7 +736,7 @@
   (symbol (lib_id "Device:R") (at 152.4 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 749d664c-2785-4d75-9b4e-85ab3222e4e0)
-    (property "Reference" "R8" (at 154.94 76.1999 0)
+    (property "Reference" "R6" (at 154.94 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 154.94 78.7399 0)
@@ -753,10 +753,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -765,7 +765,7 @@
   (symbol (lib_id "Device:R") (at 171.45 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82c0fc97-d9aa-4e17-8e9a-ef93cb175698)
-    (property "Reference" "R11" (at 171.45 76.2 90)
+    (property "Reference" "R9" (at 171.45 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 171.45 78.74 90)
@@ -782,10 +782,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "R16") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -824,7 +824,7 @@
   (symbol (lib_id "power:GND") (at 160.02 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3e271bf-ef4d-40da-8251-68a957ddcc34)
-    (property "Reference" "#PWR0119" (at 160.02 109.22 0)
+    (property "Reference" "#PWR017" (at 160.02 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 107.95 0)
@@ -840,10 +840,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/28e15989-5385-427e-a9a7-25fddc57d8c9"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cb5a0e2d-897e-4b15-92a1-7875a38841f1"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
