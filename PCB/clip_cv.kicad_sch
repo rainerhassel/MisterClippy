@@ -537,7 +537,7 @@
     (property "Value" "Input" (at 149.225 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" (at 149.86 80.01 0)
+    (property "Footprint" "mopsy:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles_Centered" (at 149.86 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 80.01 0)

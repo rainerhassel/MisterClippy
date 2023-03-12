@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "mopsy")(type "KiCad")(uri "/home/pepe/moPsy-KiCad-resources/moPsy.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "mopsy")(type "KiCad")(uri "/home/tux/moPsy/moPsy-KiCad-resources/moPsy.pretty")(options "")(descr ""))
 )
