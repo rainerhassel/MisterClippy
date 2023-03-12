@@ -5938,6 +5938,8 @@
     )
   )
 
+  (gr_line (start 107.315 126.0475) (end 107.315 117.7925)
+    (stroke (width 0.5) (type default)) (layer "B.SilkS") (tstamp e9b94e31-b2d6-4236-a766-d20ce22d2886))
   (gr_line locked (start 134.874 160.147) (end 134.874 50.927)
     (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 0d4cb8c3-6286-4fc9-bbd8-16e85a260b7a))
   (gr_line locked (start 104.648 50.927) (end 104.648 160.147)
@@ -5951,6 +5953,9 @@
   )
   (gr_text "CC-BY-SA 4.0\nPatrick Pickel\nStefan Haun" (at 125.984 117.221) (layer "B.SilkS") (tstamp 9800ac02-3566-4a10-83fb-6639520904e0)
     (effects (font (size 0.6 0.6) (thickness 0.1) bold) (justify bottom mirror))
+  )
+  (gr_text "Red Stripe (-12V)" (at 106.045 126.0475 270) (layer "B.SilkS") (tstamp ae626eec-5f07-4b66-ae75-d93183a13f74)
+    (effects (font (size 0.6 0.6) (thickness 0.1) bold) (justify left bottom mirror))
   )
 
   (segment (start 129.032 98.806) (end 128.726 99.112) (width 0.25) (layer "F.Cu") (net 1) (tstamp 02e97456-936d-4936-aad7-95ca59f15360))
@@ -6041,7 +6046,7 @@
   (via (at 107.188 131.953) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2428da5e-844a-491c-ad0d-e16afdeabcdf))
   (via (at 114.3 56.134) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2a0c2c70-37b3-4abb-8a68-c338acb254ef))
   (via (at 115.062 108.204) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 2eab73eb-0d47-4174-9c40-8cd7468457f4))
-  (via (at 107.95 124.968) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 30a4ad43-e4c6-485f-95ae-dac4837fb73a))
+  (via (at 108.585 124.968) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 30a4ad43-e4c6-485f-95ae-dac4837fb73a))
   (via (at 118.618 154.686) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 323f32f1-e620-4b17-b18a-60701c9d1a55))
   (via (at 129.2435 74.168) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 2) (tstamp 37f4f3f5-3186-4641-854f-b04594a67973))
   (via (at 120.904 138.684) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 2) (tstamp 5fa06766-f5ca-4c60-98f7-41a607853094))
