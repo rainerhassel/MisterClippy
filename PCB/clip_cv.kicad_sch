@@ -386,7 +386,7 @@
   (symbol (lib_id "Device:R") (at 149.86 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bbf13ad-c96f-4da8-ba1c-a4a3db97f8e3)
-    (property "Reference" "R15" (at 152.4 106.6799 0)
+    (property "Reference" "R16" (at 152.4 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22k" (at 152.4 109.2199 0)
@@ -403,10 +403,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/82b4cd66-2d39-4c64-8856-8f0d15c030b3"
-          (reference "R15") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99ffd22e-688e-45fd-ad48-7239527f44b1"
-          (reference "R17") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -443,7 +443,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 149.86 116.84 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d70b91d-35d1-4f53-8cb8-98a7bafb8c0f)
-    (property "Reference" "RV1" (at 147.32 118.1101 0)
+    (property "Reference" "RV4" (at 147.32 118.1101 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 147.32 115.5701 0)
@@ -461,7 +461,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/82b4cd66-2d39-4c64-8856-8f0d15c030b3"
-          (reference "RV1") (unit 1)
+          (reference "RV4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99ffd22e-688e-45fd-ad48-7239527f44b1"
           (reference "RV3") (unit 1)
@@ -501,7 +501,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 181.61 91.44 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8738cc83-9cca-419f-b840-86ac04952080)
-    (property "Reference" "RV2" (at 179.07 92.7101 0)
+    (property "Reference" "RV1" (at 179.07 92.7101 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 179.07 90.1701 0)
@@ -519,10 +519,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/82b4cd66-2d39-4c64-8856-8f0d15c030b3"
-          (reference "RV2") (unit 1)
+          (reference "RV1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99ffd22e-688e-45fd-ad48-7239527f44b1"
-          (reference "RV4") (unit 1)
+          (reference "RV2") (unit 1)
         )
       )
     )
@@ -531,7 +531,7 @@
   (symbol (lib_id "Connector:AudioJack2_Ground_SwitchT") (at 149.86 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9318876f-23a1-49ce-945f-4aa67d1c904b)
-    (property "Reference" "J4" (at 149.225 71.12 0)
+    (property "Reference" "J5" (at 149.225 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Input" (at 149.225 73.66 0)
@@ -550,10 +550,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/82b4cd66-2d39-4c64-8856-8f0d15c030b3"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99ffd22e-688e-45fd-ad48-7239527f44b1"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -562,7 +562,7 @@
   (symbol (lib_id "Device:R") (at 149.86 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3098ded-f615-46c1-80eb-a7f0b23f0edf)
-    (property "Reference" "R16" (at 152.4 125.7299 0)
+    (property "Reference" "R15" (at 152.4 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 152.4 128.2699 0)
@@ -579,10 +579,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/82b4cd66-2d39-4c64-8856-8f0d15c030b3"
-          (reference "R16") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/99ffd22e-688e-45fd-ad48-7239527f44b1"
-          (reference "R18") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )

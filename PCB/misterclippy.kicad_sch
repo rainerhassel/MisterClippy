@@ -1229,7 +1229,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 92.71 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0237efbf-b0e3-4691-8f12-4a59f22aafef)
-    (property "Reference" "C4" (at 95.631 148.1363 0)
+    (property "Reference" "C15" (at 95.631 148.1363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 95.631 150.6732 0)
@@ -1246,7 +1246,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C4") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1255,7 +1255,7 @@
   (symbol (lib_id "Device:C") (at 76.2 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05f92124-81ac-43fa-9746-bcc962f2b5fa)
-    (property "Reference" "C2" (at 79.121 166.8053 0)
+    (property "Reference" "C12" (at 79.121 166.8053 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 79.121 169.3422 0)
@@ -1272,7 +1272,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C2") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -1313,7 +1313,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 92.71 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b691f6d-60e6-454a-94c0-69aa2300f5bf)
-    (property "Reference" "C5" (at 95.631 165.9163 0)
+    (property "Reference" "C11" (at 95.631 165.9163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 95.631 168.4532 0)
@@ -1330,7 +1330,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C5") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1389,7 +1389,7 @@
   (symbol (lib_id "Device:C") (at 114.3 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34dfb453-b9d4-4af9-a511-edda34f9b5d3)
-    (property "Reference" "C8" (at 118.11 82.5499 0)
+    (property "Reference" "C3" (at 118.11 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 118.11 85.0899 0)
@@ -1406,7 +1406,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C8") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1415,7 +1415,7 @@
   (symbol (lib_id "Device:R") (at 114.3 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3908296f-7d22-4898-82ae-66363480762a)
-    (property "Reference" "R2" (at 116.84 73.025 0)
+    (property "Reference" "R1" (at 116.84 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 116.84 75.565 0)
@@ -1432,7 +1432,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R2") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1441,7 +1441,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 57.15 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b086086-abbd-4395-bfc2-32db7ba1d0bb)
-    (property "Reference" "D1" (at 57.4675 141.0802 0)
+    (property "Reference" "D4" (at 57.4675 141.0802 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5817" (at 57.4675 143.6171 0)
@@ -1458,7 +1458,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D1") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1492,7 +1492,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 92.71 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5251051a-0782-4332-92d0-ea51cd7fc11d)
-    (property "Reference" "C6" (at 95.631 173.5363 0)
+    (property "Reference" "C10" (at 95.631 173.5363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 95.631 176.0732 0)
@@ -1509,7 +1509,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1582,7 +1582,7 @@
   (symbol (lib_id "Device:FerriteBead") (at 86.36 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 645720c9-d5aa-4901-91b6-5f58c5e4f470)
-    (property "Reference" "FB1" (at 86.3092 157.4886 90)
+    (property "Reference" "FB2" (at 86.3092 157.4886 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead" (at 86.3092 160.0255 90)
@@ -1599,7 +1599,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FB1") (unit 1)
+          (reference "FB2") (unit 1)
         )
       )
     )
@@ -1658,7 +1658,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 57.15 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 852fa3a1-cbb6-456b-952b-b696f203fbf1)
-    (property "Reference" "D3" (at 57.15 181.61 0)
+    (property "Reference" "D5" (at 57.15 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5817" (at 57.15 184.15 0)
@@ -1675,7 +1675,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D3") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1684,7 +1684,7 @@
   (symbol (lib_id "Device:C") (at 114.3 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a2a799c-b175-4a72-9890-07ba138ef776)
-    (property "Reference" "C7" (at 118.11 44.4499 0)
+    (property "Reference" "C1" (at 118.11 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 118.11 46.9899 0)
@@ -1701,7 +1701,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C7") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "Device:R") (at 242.57 113.03 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99dfb34a-7e59-4bb6-ba05-2574bd961f6d)
-    (property "Reference" "R4" (at 245.11 114.3001 0)
+    (property "Reference" "R18" (at 245.11 114.3001 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 245.11 111.7601 0)
@@ -1752,7 +1752,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R4") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1761,7 +1761,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 41.91 168.91 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a751a420-2a5b-4c59-9590-0caf22d1522d)
-    (property "Reference" "J1" (at 40.64 153.7802 0)
+    (property "Reference" "J9" (at 40.64 153.7802 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PWR" (at 40.64 156.3171 0)
@@ -1792,7 +1792,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J1") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1826,7 +1826,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 57.15 163.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aafee3aa-fa82-412e-85c3-3598e70edff7)
-    (property "Reference" "D2" (at 57.4675 158.8602 0)
+    (property "Reference" "D3" (at 57.4675 158.8602 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1N5817" (at 57.4675 161.3971 0)
@@ -1843,7 +1843,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "D2") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1877,7 +1877,7 @@
   (symbol (lib_id "Device:C") (at 242.57 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad38787f-4e46-420b-a207-6376ba37f77d)
-    (property "Reference" "C9" (at 246.38 44.4499 0)
+    (property "Reference" "C2" (at 246.38 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 246.38 46.9899 0)
@@ -1894,7 +1894,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C9") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1903,7 +1903,7 @@
   (symbol (lib_id "Device:R") (at 114.3 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid adcb20ff-5bba-427b-bf46-8b2f1559e917)
-    (property "Reference" "R1" (at 116.84 34.925 0)
+    (property "Reference" "R2" (at 116.84 34.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 116.84 37.465 0)
@@ -1920,7 +1920,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1929,7 +1929,7 @@
   (symbol (lib_id "Device:C") (at 76.2 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbd97e1b-2489-4694-8a52-fb0ee8641973)
-    (property "Reference" "C3" (at 79.121 174.4253 0)
+    (property "Reference" "C9" (at 79.121 174.4253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 79.121 176.9622 0)
@@ -1946,7 +1946,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C3") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1980,7 +1980,7 @@
   (symbol (lib_id "Device:FerriteBead") (at 86.36 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1c978f0-826b-4ddf-ae58-ee5328efd6c0)
-    (property "Reference" "FB2" (at 86.36 184.15 90)
+    (property "Reference" "FB1" (at 86.36 184.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FerriteBead" (at 86.36 186.69 90)
@@ -1997,7 +1997,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "FB2") (unit 1)
+          (reference "FB1") (unit 1)
         )
       )
     )
@@ -2006,7 +2006,7 @@
   (symbol (lib_id "Device:C") (at 242.57 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c23331b7-55c8-4a52-a70f-96f946d646b5)
-    (property "Reference" "C10" (at 246.38 63.4999 0)
+    (property "Reference" "C4" (at 246.38 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 246.38 66.0399 0)
@@ -2023,7 +2023,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C10") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2132,7 +2132,7 @@
   (symbol (lib_id "Device:R") (at 242.57 120.65 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f366998d-8fcd-4b1e-a301-8c5409f9eed3)
-    (property "Reference" "R3" (at 245.11 121.9201 0)
+    (property "Reference" "R17" (at 245.11 121.9201 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 245.11 119.3801 0)
@@ -2149,7 +2149,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R3") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2158,7 +2158,7 @@
   (symbol (lib_id "Device:C") (at 76.2 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f630d484-afaf-4017-a3bb-6b914cc7de0a)
-    (property "Reference" "C1" (at 79.121 149.0253 0)
+    (property "Reference" "C13" (at 79.121 149.0253 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 79.121 151.5622 0)
@@ -2175,7 +2175,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C1") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
