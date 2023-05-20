@@ -810,7 +810,7 @@
   (symbol (lib_id "Device:R") (at 198.12 116.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 094479f9-e31e-4b8c-a624-fca331f65dc9)
-    (property "Reference" "R23" (at 198.12 111.76 90)
+    (property "Reference" "R5" (at 198.12 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 198.12 114.3 90)
@@ -827,10 +827,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "R23") (unit 1)
+          (reference "R5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "R28") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -895,7 +895,7 @@
   (symbol (lib_id "Device:C") (at 38.1 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f256d4c-0a0e-4478-b3bf-3e0d6d8ed95b)
-    (property "Reference" "C11" (at 36.83 151.13 0)
+    (property "Reference" "C6" (at 36.83 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 36.83 153.67 0)
@@ -912,10 +912,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "C11") (unit 1)
+          (reference "C6") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "C15") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -924,7 +924,7 @@
   (symbol (lib_id "Device:R") (at 151.13 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ffcfea8-9025-4e88-a0a5-731c52393572)
-    (property "Reference" "R20" (at 151.13 45.72 90)
+    (property "Reference" "R11" (at 151.13 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 151.13 48.26 90)
@@ -941,10 +941,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "R20") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "R25") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -953,7 +953,7 @@
   (symbol (lib_id "Comparator:LM393") (at 62.23 170.18 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 61296499-a85e-4b63-951f-443d32fe7d38)
-    (property "Reference" "U3" (at 60.96 168.9099 0)
+    (property "Reference" "U4" (at 60.96 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM393" (at 60.96 171.4499 0)
@@ -976,7 +976,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "U3") (unit 3)
+          (reference "U4") (unit 3)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
           (reference "U5") (unit 3)
@@ -1036,7 +1036,7 @@
           (reference "C14") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "C18") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -1073,7 +1073,7 @@
   (symbol (lib_id "Device:R") (at 80.01 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b250bcd-a3c7-4fb9-816f-4276ba19dff7)
-    (property "Reference" "R19" (at 80.01 59.69 90)
+    (property "Reference" "R3" (at 80.01 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 80.01 62.23 90)
@@ -1090,10 +1090,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "R19") (unit 1)
+          (reference "R3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "R24") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1102,7 +1102,7 @@
   (symbol (lib_id "Device:C") (at 38.1 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ba6e762-dfea-495f-9a52-913479f3bd21)
-    (property "Reference" "C12" (at 38.1 187.96 0)
+    (property "Reference" "C5" (at 38.1 187.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 38.1 190.5 0)
@@ -1119,10 +1119,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "C12") (unit 1)
+          (reference "C5") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "C16") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1131,7 +1131,7 @@
   (symbol (lib_id "Device:R") (at 151.13 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94e1e36b-9c80-431f-b5b0-ef6a41a1c8e9)
-    (property "Reference" "R21" (at 151.13 81.0641 90)
+    (property "Reference" "R7" (at 151.13 81.0641 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 151.13 82.9851 90)
@@ -1148,10 +1148,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "R21") (unit 1)
+          (reference "R7") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "R26") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1188,7 +1188,7 @@
   (symbol (lib_id "Device:C") (at 54.61 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bfdc4454-f3c3-4583-8027-d2bf47b5feae)
-    (property "Reference" "C13" (at 53.34 151.13 0)
+    (property "Reference" "C16" (at 53.34 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 53.34 153.67 0)
@@ -1205,10 +1205,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "C13") (unit 1)
+          (reference "C16") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "C17") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1217,7 +1217,7 @@
   (symbol (lib_id "Connector:AudioJack2_Ground_SwitchT") (at 209.55 116.84 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c38743e1-4df5-4533-add3-9b635978f7df)
-    (property "Reference" "J7" (at 210.185 125.73 0)
+    (property "Reference" "J3" (at 210.185 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Through" (at 210.185 123.19 0)
@@ -1236,10 +1236,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "J7") (unit 1)
+          (reference "J3") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "J9") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1274,7 +1274,7 @@
           (reference "U2") (unit 3)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "U4") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -1309,7 +1309,7 @@
           (reference "U2") (unit 2)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "U4") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -1318,7 +1318,7 @@
   (symbol (lib_id "Connector:AudioJack2_Ground_SwitchT") (at 63.5 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d9a8496d-0e3d-4d7e-8ae5-f992325fc84c)
-    (property "Reference" "J6" (at 62.865 57.15 0)
+    (property "Reference" "J1" (at 62.865 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Audio In" (at 62.865 59.69 0)
@@ -1337,10 +1337,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "J6") (unit 1)
+          (reference "J1") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "J8") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1403,7 +1403,7 @@
           (reference "U2") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1412,7 +1412,7 @@
   (symbol (lib_id "Device:R") (at 167.64 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f54ec6a3-59a2-4660-8cd5-af164d9f1c6c)
-    (property "Reference" "R22" (at 167.64 73.66 90)
+    (property "Reference" "R4" (at 167.64 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 167.64 76.2 90)
@@ -1429,10 +1429,10 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "R22") (unit 1)
+          (reference "R4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
-          (reference "R27") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1441,7 +1441,7 @@
   (symbol (lib_id "Comparator:LM393") (at 190.5 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb776ef7-2924-4d04-abc4-a3cae6a74ffa)
-    (property "Reference" "U3" (at 190.5 64.77 0)
+    (property "Reference" "U4" (at 190.5 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM393" (at 190.5 62.23 0)
@@ -1464,7 +1464,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "U3") (unit 1)
+          (reference "U4") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
           (reference "U5") (unit 1)
@@ -1476,7 +1476,7 @@
   (symbol (lib_id "Comparator:LM393") (at 190.5 85.09 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdc55b1c-6b63-46f1-ba67-4257f464952b)
-    (property "Reference" "U3" (at 190.5 77.47 0)
+    (property "Reference" "U4" (at 190.5 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM393" (at 190.5 74.93 0)
@@ -1499,7 +1499,7 @@
     (instances
       (project "misterclippy"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/61dede23-a603-4f04-ae2d-dc97e14d6ef6"
-          (reference "U3") (unit 2)
+          (reference "U4") (unit 2)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/4642a6a8-b011-4773-b2dd-28458a0abfc0"
           (reference "U5") (unit 2)
