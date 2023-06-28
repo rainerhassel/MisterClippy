@@ -2,6 +2,8 @@
 
 > Clipping Detector Module
 
+![Front view of the MisterClippy panel in a rack](Doc/2023-06-27_MisterClippy-case-front-small.jpg)
+
 
 ## Dependencies
 
