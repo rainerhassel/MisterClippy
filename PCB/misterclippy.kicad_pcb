@@ -6845,7 +6845,7 @@
   (gr_text "github.com/rainerhassel/MisterClippy" (at 129.667 131.191) (layer "B.SilkS") (tstamp fab59bb2-e292-438e-82b0-603ec8f01725)
     (effects (font (size 0.6 0.6) (thickness 0.1) bold) (justify left bottom mirror))
   )
-  (gr_text "CC-BY-SA 4.0\nPatrick Pichel\nStefan Haun" (at 133.858 129.413 90) (layer "F.SilkS") (tstamp 38871e0b-b3b0-4e37-8cb8-c47b82e2ab03)
+  (gr_text "CC-BY-SA 4.0\nPatrick Pickel\nStefan Haun" (at 133.858 129.413 90) (layer "F.SilkS") (tstamp 38871e0b-b3b0-4e37-8cb8-c47b82e2ab03)
     (effects (font (size 0.6 0.6) (thickness 0.1) bold) (justify left bottom))
   )
 
