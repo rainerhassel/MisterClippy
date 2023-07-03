@@ -1,0 +1,204 @@
+\documentclass[a4paper,
+               11pt,
+               parskip=half,
+               headinclude,
+               titlepage=false]{scrartcl}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\metaauthor}{moPsy}
+\newcommand{\metatitle}{MisterClippy User Manual}
+\newcommand{\metarev}{1.1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[T1]{fontenc}        % Tries to use Postscript Type 1 Fonts for better rendering
+\usepackage{lmodern}            % Provides the Latin Modern Font which offers more glyphs than the default Computer Modern
+\usepackage[sfdefault]{carlito}
+\usepackage[intlimits]{amsmath} % Provides all mathematical commands
+\usepackage[protrusion=true,
+            expansion,
+            kerning=true,
+            babel=true]{microtype}
+\usepackage{fontawesome}
+
+\usepackage[english]{babel}
+\usepackage[english]{isodate}
+
+\usepackage{eurosym}
+\usepackage[shortlabels]{enumitem}
+
+\usepackage{grffile}            % Allow you to include images (like graphicx). Usage: \includegraphics{path/to/file}
+
+\usepackage[ugly]{units}        % Allows you to type units with correct spacing and font style. Usage: $\unit[100]{m}$ or $\unitfrac[100]{m}{s}$
+
+\usepackage{xspace}             % Use \xpsace in macros to automatically insert space based on context. Usage: \newcommand{\es}{ESPResSo\xspace}
+\usepackage[dvipsnames,table]{xcolor}             % Obviously colors. Usage: \color{red} Red text
+\usepackage{booktabs}           % Nice rules for tables. Usage \begin{tabular}\toprule ... \midrule ... \bottomrule
+
+
+%\usepackage[hang]{subfigure}  % unterteilte Abbildungen
+\usepackage{setspace}          %fuer dem Zeilanabstand
+\usepackage[hang,bf,footnotesize]{caption}   % bessere Bildunterschriften
+\usepackage{wrapfig}
+
+\usepackage{csquotes}
+
+
+\usepackage[hyphens]{url}                % Lets you typeset urls. Usage: \url{http://...}
+\usepackage[pdftex,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+\hypersetup{
+  pdftitle    = {\metatitle},
+  pdfsubject  = {Assembly Guide},
+  pdfauthor   = {\metaauthor},
+  pdfkeywords = {} ,
+  pdfcreator  = {pdflatex},
+  pdfproducer = {LaTeX with hyperref}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{pdfpages}
+
+\usepackage{tabularx}
+
+
+\usepackage[headsepline, footsepline]{scrlayer-scrpage}
+\setlength{\headheight}{34pt} % logo height
+\clearpairofpagestyles
+\ohead{
+\vfill%
+\begin{tabular}{@{}l l@{}}
+Patrick with \includegraphics[height=2em]{moPsy_logo}\hspace*{-0.1cm}
+\end{tabular}
+}
+\ihead{
+\vfill%
+{\huge MisterClippy} \,v\metarev\, User Manual%
+}
+\ofoot{Page \thepage}
+\setkomafont{pageheadfoot}{\sffamily\footnotesize}
+\setkomafont{pagination}{}
+\pagestyle{scrheadings}
+
+
+%\usepackage{background}
+
+%\usepackage[section]{placeins} % keep figures in their section
+
+
+\definecolor{level_easy}{rgb}{0.2, 0.6, 0.1}
+
+\definecolor{row1}{rgb}{1.0, 1.0, 1.0}
+\definecolor{row2}{rgb}{0.93, 0.93, 0.99}
+
+
+
+\begin{document}
+
+
+\begin{minipage}[]{11cm}
+\setlength{\parskip}{\medskipamount}
+\section*{Thank you for choosing the MisterClippy module!}
+
+This manual provides information on installing and using the MisterClippy module.
+We hope that all questions will be answered.
+
+If you encounter a problem or have further questions,
+please do not hesitate to reach out to us at \href{mailto:contact@mopsy-music.de}{\texttt{contact@mopsy-music.de}}.
+
+
+\vspace{1em}
+\begin{center}
+Enjoy your module! \quad \includegraphics[height=0.8em]{peace_love_music}
+\end{center}
+
+
+\section*{About MisterClippy}
+
+MisterClippy is a clip detector with adjustable threshold and gate output.
+And since this is so much fun, we have doubled the feature set in one module!
+
+\end{minipage}%
+\hspace{0.5cm}
+\begin{minipage}[]{3.5cm}
+\includegraphics[width=3.5cm]{MisterClippy-case-shot-frame}
+\end{minipage}
+
+
+\section*{Installation}
+
+The MisterClippy module will occupy \textbf{\unit[12]{HP}} in your rack with a depth of \textbf{\unit[20]{mm}}.
+
+To \textbf{connect power} …
+\begin{enumerate}
+ \item Please make sure that your cabinet is \textbf{disconnected from the mains} and has no power.
+ \item The module is connected with a \textbf{16-pin} (2x8) bus cable.
+ \item \textbf{Check your power cable and the polarity.} The coloured ({\color{red}red}) line on the cable (pin 1) needs to be connected to the \textbf{\unit[-12]{V}} rail.
+ If the module is installed in an upright orientation, the \textbf{\color{red}red stripe} needs to be \textbf{facing down}.
+ \item If you plug the module backwards, it may burn out.
+ Unfortunately this cannot be covered by the warranty.
+\end{enumerate}
+
+%The module draws a maximum of \textbf{\unit[40]mA} from the \textbf{\unit[+12]{V}} rail.
+\emph{Detailed power measurements are pending.}
+
+
+\begin{minipage}[]{4cm}
+\vspace{-2cm}
+\includegraphics[width=3.8cm, trim={0 5.5cm 0 2.5cm}, clip]{MisterClippy-calibration}
+\end{minipage}
+\hspace{0.5cm}
+\begin{minipage}[b]{10.5cm}
+\setlength{\parskip}{\medskipamount}
+
+
+\section*{Calibration}
+
+The module has two trim potentiometers, \textbf{\color{red}RV3} and \textbf{\color{red}RV4}, to adjust the default clip detection threshold.
+These should be set so that their middle pin presents \textbf{\unit[+10]{V}} with respect to ground.
+
+\end{minipage}
+
+
+\begin{minipage}[]{11cm}
+\setlength{\parskip}{\medskipamount}
+\section*{Frontpanel}
+
+The module is divided into two equal and independent sections.
+
+The \textbf{(audio) signal} is fed into the input \textbf{\color{red}IN} (1).
+
+As this signal is usually needed somewhere else, it is \textbf{mirrored} to the output \textbf{\color{red}THRU} (2) without modification.
+
+\vspace{1em}
+
+The \textbf{clip threshold} can be provided as a CV on the \textbf{\color{red}THRSH} input (4) and \textbf{defaults to \unit[+10]{V}}.
+
+In addition, the clip threshold---internal or externally provided---can be \textbf{attenuated} with the potentiometers (3).
+
+\vspace{1em}
+
+Clipping is \textbf{detected} if the signal is \textbf{above} the clip threshold \textbf{or below} the negated clip threshold.
+For example, with a clip threshold of \unit[+4]{V}, any voltage greater then \unit[+4]{V} and lower than \unit[-4]{V} will be detected as clipping.
+
+If clipping is detected, the \textbf{\color{red}LED} (5) will light up and a \textbf{gate} is presented at the \textbf{\color{red}CLIP} output (6).
+
+Note that the clip signal will \textbf{persist} for a short time. If another clipping occurs withing this time window, the gate will be \textbf{extended} instead of being re-triggered.
+
+\end{minipage}%
+\hspace{0.5cm}
+\begin{minipage}[]{3.5cm}
+\includegraphics[width=3.5cm]{MisterClippy-frontpanel-labels}
+\end{minipage}
+
+\section*{Online Resources}
+
+More about the module  …
+\begin{itemize}[noitemsep]
+ \item on GitHub: \url{https://github.com/rainerhassel/MisterClippy}
+ \item via e-mail: \href{mailto:contact@mopsy-music.de}{\texttt{contact@mopsy-music.de}}
+\end{itemize}
+
+
+\end{document}
